@@ -46,7 +46,7 @@ h1{
 }
 
 footer{
-    background-color: blueviolet;
+    background-color: rgb(15, 15, 15);
     padding: 15px 25px;
     color: rgb(247, 246, 246);
 }
@@ -64,5 +64,18 @@ footer{
 }
 
 .cartao-frente, .cartao-erso{
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba;backface-visibility: hidden;
     
+}
+
+.cartao-verso{
+    transform: rotateY(180deg);
+
+}
+
+section{
+    display: flex;
+    gap: 16px;
 }
